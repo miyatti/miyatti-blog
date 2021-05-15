@@ -14,52 +14,25 @@ export default function Index() {
           width="250"
           alt="Vercel + Notion"
         />
-        <h1>My Notion Blog</h1>
+        <h1>宮田 大督 / Daisuke Miyata </h1>
         <h2>
-          Blazing Fast Notion Blog with Next.js'{' '}
-          <ExtLink
-            href="https://github.com/vercel/next.js/issues/9524"
-            className="dotted"
-            style={{ color: 'inherit' }}
-          >
-            SSG
-          </ExtLink>
+          アプリやWEBサービスのプロダクトマネージャー（企画職）をやっています。 
         </h2>
-
-        <Features />
 
         <div className="explanation">
           <p>
-            This is a statically generated{' '}
-            <ExtLink href="https://nextjs.org">Next.js</ExtLink> site with a{' '}
-            <ExtLink href="https://notion.so">Notion</ExtLink> powered blog that
-            is deployed with <ExtLink href="https://vercel.com">Vercel</ExtLink>
-            . It leverages some upcoming features in Next.js like{' '}
-            <ExtLink href="https://github.com/vercel/next.js/issues/9524">
-              SSG support
-            </ExtLink>{' '}
-            and{' '}
-            <ExtLink href="https://github.com/vercel/next.js/issues/8626">
-              built-in CSS support
-            </ExtLink>{' '}
-            which allow us to achieve all of the benefits listed above including
-            blazing fast speeds, great local editing experience, and always
-            being available!
-          </p>
+大手プロバイダのマーケター時代には、新規事業開発部門,２つ社内ビジネスコンテストで賞をとる。1つは１年の準備期間を経て、βリリース。通常業務としては、新規企画のＵＸデザイン・調査からＡＰＩの設計、デザインのラフ案まで自分ひとりで行う業務もやり、ＷＥＢ関連の業務を企画から開発、デザインまでひととおり経験する。
+ </p><p>
+その後、実際に広く世の中に影響を与えるサービスに関わるため楽天に転職。ＷＥＢディレクターとして、市場、トラベルなど大きいサービスから、車検、レシピ、SNSといった多種多様な新規案件のディレクションまで手掛ける。特徴としては、必ずＵＸ調査をビジネス側に提案し、実施。モックの段階でブラッシュアップするなどＨＣＤプロセスにこだわったディレクションを行う。
+ </p><p>
+メルカリでは、US事業の立ち上げ時期にアプリUI改善業務を２年弱行う。購入CVRに注力したある3ヶ月間では、実際にサンフランシスコに訪問調査を行いつつ現地のスタッフと協力して+50%の改善を行なった。その後一年で日本でもアプリ改善を行っており、こちらでもユーザー調査から、改善案を発案し素早くリリース。検索周り改善や値下げ要請オファー機能をマイクロサービスとしてメルカリ内で初開発を行いリリースまでした。
+ </p><p>
+その後また、ゼロからの立ち上げ参画の為メルペイに異動希望。まずユーザビリティテストの組織を立ち上げ毎週実施し、全体のUX磨き込みに貢献。すべてリクルートからモデレータ、UI改善案まで行い、ほぼ全ての現在のメルペイ 機能に関与。自分がPMとしての企画としては、あと払い機能の開発を短期間で行う。その後、現場のプロジェクトを離れ、メルカリ・メルペイの全体・上流をみる、HDのCXO室にてUXリサーチャー兼PMという形メルカリ全体のUXリサーチに関する取り組みをサポートする業務や、メルカリメルペイにまたがるUXリサーチから企画立案を行うところまでをやっている。
+ </p><p>
+そして2020年1月、エクサウィザーズに入社。現在はUXデザイナー/プロダクトマネージャーとして、デザイングループ・技術統括部・プロダクト開発部などの複数部署にまたがり、社会課題を解決するプロダクト開発と再現性の高いチーム作りを目指して奔走中。
+  </p>        
 
-          <p>
-            Get started by creating a new page in Notion and clicking the deploy
-            button below. After you supply your token and the blog index id (the
-            page's id in Notion) we will automatically create the table for you!
-            See{' '}
-            <ExtLink href="https://github.com/ijjk/notion-blog#getting-blog-index-and-token">
-              here in the readme
-            </ExtLink>{' '}
-            for finding the new page's id. To get your token from Notion, login
-            and look for a cookie under www.notion.so with the name `token_v2`.
-            After finding your token and your blog's page id you should be good
-            to go!
-          </p>
+     
         </div>
       </div>
     </>
